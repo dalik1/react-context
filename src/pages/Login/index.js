@@ -13,7 +13,7 @@ import {
   InputAdornment 
 } from '@material-ui/core';
 
-function Login() {
+function Login( nome, setNome, saldo, setSaldo ) {
   const history = useHistory();
   const { nome, setNome, saldo, setSaldo } = useContext(UsuarioContext);
   
